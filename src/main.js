@@ -5,13 +5,16 @@ import App from './App'
 import router from './router'
 import fastClick from 'fastclick'
 import ElementUI from 'element-ui'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'element-ui/lib/theme-chalk/index.css'
 import './assets/styles/reset.css'
 import './assets/styles/border.css'
 import './assets/styles/iconfont.css'
+import 'swiper/dist/css/swiper.css'
 
 Vue.config.productionTip = false
 fastClick.attach(document.body);
+Vue.use(VueAwesomeSwiper, /* { default global options } */)
 
 Vue.use(ElementUI)
 
