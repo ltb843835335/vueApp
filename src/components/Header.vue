@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import '../assets/styles/varibles.css'
+import '@/assets/styles/varibles.css'
 export default {
   name : 'HomeHeader'
 }
